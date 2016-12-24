@@ -6,8 +6,8 @@
     <RelativeLayout
         android:id="@+id/title_view"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:background="@android:color/white"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
         android:paddingLeft="15dp"
         android:paddingRight="15dp">
 
@@ -17,14 +17,16 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:text="取消"
-            android:textSize="20sp" />
+            android:textColor="@color/write"
+            android:textSize="15sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="往返日历"
-            android:textSize="22sp" />
+            android:textColor="@color/write"
+            android:textSize="17sp" />
     </RelativeLayout>
 
     <LinearLayout
